@@ -81,22 +81,22 @@ export const calculateInsuranceData = (name, age, planType, sumAssured) => {
   const calculateBonuses = (sumAssured, planType) => {
     const regularBonusRates = {
       '03/10': [
-        { period: 'Years 1-5', rate: 17, years: 5 },
-        { period: 'Years 6-10', rate: 66, years: 5 }
+        { period: 'Years 1-5', rate: 21, years: 5 },
+        { period: 'Years 6-10', rate: 80, years: 5 }
       ],
       '03/15': [
-        { period: 'Years 1-5', rate: 29, years: 5 },
-        { period: 'Years 6-15', rate: 81, years: 10 }
+        { period: 'Years 1-5', rate: 35, years: 5 },
+        { period: 'Years 6-15', rate: 98, years: 10 }
       ],
       '03/20': [
-        { period: 'Years 1-5', rate: 43, years: 5 },
-        { period: 'Years 6-16', rate: 96, years: 11 },
-        { period: 'Years 17-20', rate: 147, years: 4 }
+        { period: 'Years 1-5', rate: 52, years: 5 },
+        { period: 'Years 6-16', rate: 117, years: 11 },
+        { period: 'Years 17-20', rate: 178, years: 4 }
       ],
       '81/20': [
-        { period: 'Years 1-5', rate: 43, years: 5 },
-        { period: 'Years 6-16', rate: 96, years: 11 },
-        { period: 'Years 17-20', rate: 147, years: 4 }
+        { period: 'Years 1-5', rate: 52, years: 5 },
+        { period: 'Years 6-16', rate: 117, years: 11 },
+        { period: 'Years 17-20', rate: 178, years: 4 }
       ],
        'PLA': [
         { period: 'Years 1-5', rate: 17, years: 5 },
