@@ -859,7 +859,7 @@ let formattedBonus = format(_50_Percent_Bonus/2);
             >
               Expected Maturity Return is Rs.{" "}
               {format(insuranceResults[3].value * ((insuranceResults[2].value=='Endowment (10 Years)'||insuranceResults[2].value=="Platinium (10 Years)")? 2.5: 4.5))}
-              Plus 
+              &nbspplus 
             </h1>
 
             <h3
