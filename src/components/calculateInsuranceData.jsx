@@ -99,8 +99,8 @@ export const calculateInsuranceData = (name, age, planType, sumAssured) => {
         { period: 'Years 17-20', rate: 178, years: 4 }
       ],
        'PLA': [
-        { period: 'Years 1-5', rate: 17, years: 5 },
-        { period: 'Years 6-10', rate: 66, years: 5 }
+        { period: 'Years 1-5', rate: 32, years: 5 },
+        { period: 'Years 6-10', rate: 120, years: 5 }
       ],
     };
 
